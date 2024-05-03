@@ -20,3 +20,7 @@ The analysis tool provided by LAMMPS can calculate the bond-orietational order p
 
 This program use both the original trajectory and the COM trajectory as inputs, so as to save the claculation time. 'body_theta.cpp' calculate the body-orientation while 'body_orient.cpp' calculate the corresponding order parameter, both take n-fold rotational symmetry of monomer into account. This is designed for the ball-stick molecule we used in our research work [arXiv 2302.08305](https://arxiv.org/abs/2302.08305v3), but can be easily modified for other anisotropic molecules, e.g., for polygons, the coordinate of each atom can be replaced by the one for the vertex.
 
+### Examples
+
+In the folder 'example', we upload sample documents for both rectangular and triclinic box. There is a pdf file in each folder illustrating the relationship of relative files. It should be noticed that these files are just used as illustration of the input and output of the codes, produced from very short simulation without sufficient relaxation, so the results may be not strict for physics.
+
