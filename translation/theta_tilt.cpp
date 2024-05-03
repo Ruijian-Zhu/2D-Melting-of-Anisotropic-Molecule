@@ -2,6 +2,7 @@
 // Note that tan\theta can be calculated directly (y/x) and what we need is also tan\theta, so we never convert it to theta
 // For triclinic box
 // Written by Ruijian Zhu (ITP-CAS) in Oct 2022
+// 2496 molecules, 2000 snapshots, 1 CPU, requires about 30 min
 
 #include<iostream>
 #include<cstdio>
