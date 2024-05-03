@@ -1,6 +1,7 @@
 // C++ code for arranging COM file calculated by LAMMPS into a LAMMPS style trajectory file
 // Modified for triclinic box
 // Written by Ruijian Zhu (ITP-CAS) in Nov 2022
+// 2496 molecules, 2000 snapshots, 1 CPU, requires about 2 min
 
 #include<iostream>
 #include<cstdio>
