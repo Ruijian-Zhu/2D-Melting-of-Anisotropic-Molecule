@@ -1,6 +1,7 @@
 // C++ code for calculate bond-orientational correlation function along r direction
 // Assuming typical lammpstrj output of BOOP as input (see example)
 // Written by Ruijian Zhu (ITP-CAS) in April 2023
+// 2496 molecules, 2000 snapshots, 1 CPU, requires about 30 min
 
 #include<iostream>
 #include<cstdio>
