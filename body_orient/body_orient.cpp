@@ -1,5 +1,6 @@
 // C++ code for calculate body-orientational order parameter
 // Written by Ruijian Zhu (ITP-CAS) in March 2023
+// 2496 molecules, 2000 snapshots, 1 CPU, requires about 20 min
 
 #include<iostream>
 #include<cstdio>
