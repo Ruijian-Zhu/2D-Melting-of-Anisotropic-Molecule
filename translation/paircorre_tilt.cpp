@@ -2,6 +2,7 @@
 // Note that the crystal axis orientation has to be determined at first
 // For triclinic box
 // Written by Ruijian Zhu (ITP-CAS) in Oct 2022
+// 2496 molecules, 2000 snapshots, 1 CPU, requires about 30 min
 
 #include<iostream>
 #include<cstdio>
