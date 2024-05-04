@@ -106,7 +106,7 @@ int main()
     }
     infile.close();
 
-    // Read in coordinate of COMS and write to the new traj file spontaneously
+    // Read in coordinate of COMS and write to the new traj file synchronously
     write.open(writeFile, ios::app); 
     double rdinate[4*molecule];
     coordinate particle[molecule];
