@@ -20,6 +20,10 @@ The analysis tool in LAMMPS can calculate the bond-orietational order parameter 
 
 This program use both the original trajectory and the COM trajectory as inputs, so as to save the claculation time. 'body_theta.cpp' calculate the body-orientation while 'body_orient.cpp' calculate the corresponding order parameter, both taking n-fold rotational symmetry of monomer into account. This is designed for the ball-stick molecule we used in our research work [arXiv 2302.08305](https://arxiv.org/abs/2302.08305v3), but can be easily modified for other anisotropic molecules, e.g., the coordinate of each atom would be replaced by the one for the vertex when studying hard polygons.
 
+### Voronoi diagram
+
+Delauney tessellation/Voronoi diagram is a classical method to decide the topologically nearest neighbors of a point, which can be further used to define the topological defects. The two python programs we provided here are based on the freud library (https://freud.readthedocs.io/en/latest/) developed by Prof. Sharon C. Glotzer's group in Michigan University, which can easily perform Voronoi analysis taking PBC into account, and are modified for LAMMPS trajectory. More examples on the installation as well as the usage of freud library are refered to the notebook provided on Prof. Glotzer's personal homepage (https://nbviewer.org/github/harperic/freud-examples/blob/master/index.ipynb).
+
 ### Examples
 
 In the folder 'example', we upload sample documents for both rectangular and triclinic box. There is a pdf file in each folder illustrating the relationship of relative files. It should be noticed that these files are just used as illustration of the input and output of the codes, produced from very short simulation without sufficient relaxation, so the results may be not strict for physics.
